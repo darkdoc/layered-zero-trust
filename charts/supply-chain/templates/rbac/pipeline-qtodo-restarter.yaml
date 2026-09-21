@@ -11,7 +11,7 @@ rules:
   verbs: ["get", "patch"]
 - apiGroups: ["apps"]
   resources: ["deployments"]
-  verbs: ["list"]
+  verbs: ["list", "watch"]
 - apiGroups: ["apps"]
   resources: ["replicasets"]
   verbs: ["list", "get"]
