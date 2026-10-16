@@ -166,6 +166,8 @@ clusterGroup:
           value: "true"
         - name: pipelinerun.enabled
           value: "true"
+      extraValueFiles:
+        - '/overrides/values-ci.yaml'
     acs-central:
       overrides:
         - name: integration.quay.enabled
